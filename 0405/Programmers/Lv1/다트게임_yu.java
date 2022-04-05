@@ -1,13 +1,9 @@
-import java.util.Scanner;
-
-public class lv1_다트게임 {
-	public static void main(String[] args) {
-
-		Scanner sc = new Scanner(System.in);
+class Solution {
+    public int solution(String dartResult) {
 
 		int[] score = new int[3];
 
-		String[] dart = sc.next().split("");
+		String[] dart = dartResult.split("");
 
 		int num = 0;
 		int idx = 0;
@@ -36,13 +32,12 @@ public class lv1_다트게임 {
 			case "#":
 				score[idx - 1] *= -1;
 				break;
-			default:
+            default:
 				if (dart[i].equals("1") && dart[i + 1].equals("0")) {
-					i++;
-					num= 10;
-					continue;
+                    i++;
+                    num=10;
 					
-				} else {
+				}else {
 
 					num = Integer.parseInt(dart[i]);
 				}
@@ -51,14 +46,11 @@ public class lv1_다트게임 {
 
 		} // for
 
-		int answer = 0;
-		for (int i = 0; i < 3; i++) {
+        int answer = 0;
+        for (int i = 0; i < 3; i++) {
 
 			answer += score[i];
 		}
-
-		System.out.println(answer);
-
-	}
-
+        return answer;
+    }
 }
