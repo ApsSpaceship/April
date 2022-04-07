@@ -70,7 +70,7 @@ class Solution {
 
 	public static int fee(int[] fees, int min) {
 		if (min < fees[0]) {
-			return fees[1];
+			return fees[1];  
 		} else {
 			double cash = Math.ceil((float) (min - fees[0]) / fees[2]) * fees[3] + fees[1];
 			return (int) cash;
