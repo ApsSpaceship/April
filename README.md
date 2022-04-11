@@ -14,10 +14,14 @@ mmdd/SiteName/Pnum/Pnum_성.java 형태로 파일 업로드
 ## PR 생성 양식
 
 Commit Message와 동일     
- 게시물 내용     
- - #issueNum       
- Create PR 후      
- - Development 이슈와 연결     
+
+### 게시물 내용  
+
+#issueNum     
+
+### Create PR 후   
+
+Development 이슈와 연결     
 
 ## Merge 규칙
 
