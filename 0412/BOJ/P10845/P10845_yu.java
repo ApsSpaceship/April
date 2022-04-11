@@ -74,7 +74,7 @@ public class bj_10845_큐 {
 		} // while
 
 		System.out.println(sb.toString());
-
+     
 	}
 
 }
