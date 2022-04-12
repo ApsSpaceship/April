@@ -6,8 +6,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 
-class Lv1 {
-	// Solution으로 바꾸기
+class Solution {
 	public static int[] solution(int N, int[] stages) {
 		// 전체 스테이지의 개수 N = 1 이상 500 이하의 자연수
 		// 게임을 이용하는 사용자가 현재 멈춰있는 스테이지의 번호가 담긴 배열 stages가 매개변수 - 1 이상 200,000 이하
