@@ -6,10 +6,10 @@ class Solution {
 		long now = 0;
 		while (n > 0) {
 			nowBaby = n % k; // k진법 변환
-			if (nowBaby != 0) { // 0이면
+			if (nowBaby != 0) { // 0이 아니면
 				now += nowBaby * Math.pow(10, cnt++);
 			} else {
-				if (isPrime(now)) // 0이 아니면 소수 판별
+				if (isPrime(now)) // 0이면 소수 판별
 					answer++;
 				cnt = 0;
 				now = 0;
