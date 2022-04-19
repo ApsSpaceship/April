@@ -7,7 +7,7 @@ public class programmers_문자열압축 {
 			StringBuilder sb = new StringBuilder();
 			int count = 1; // 반복횟수 체크
 			String plus = ""; // 마지막에 남는 문자열 
-			String check = s.substring(0, i); // 비교대상
+			String check = s.substring(0, i); // 현재대상
 			for (int j = i; j <= s.length(); j += i) {
 				String compare = "";
 				if (j + i > s.length()) {
@@ -18,8 +18,8 @@ public class programmers_문자열압축 {
 				if (check.equals(compare)) {
 					count++; // 같다면 반복횟수 ++
 				} else if (count == 1) { // 같지 않은데 카운트도 1이면
-					sb.append(check); //비교대상 더해주고
-					check = compare; // 다음 문자로 바꿈
+					sb.append(check); //현재대상 더해주고
+					check = compare; // 다음 비교 대상문자로 바꿈
 				}else {
 					sb.append(count).append(check);
 					check = compare;
