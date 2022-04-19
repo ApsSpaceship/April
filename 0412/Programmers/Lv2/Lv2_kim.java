@@ -43,7 +43,7 @@ public class programmers_k진수에서소수개수구하기 {
 		}
 		//소수면 answer++
 		if(flag) {
-			answer++;
+			answer++; 
 		}
 	}
 }
