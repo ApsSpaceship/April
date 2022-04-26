@@ -2,7 +2,7 @@ package study0426;
 
 import java.util.Scanner;
 
-public class baekjoon1107_리모컨 {
+public class baekjoon1107_리모컨 {  
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt(); // 이동할 번호

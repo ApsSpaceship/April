@@ -3,7 +3,7 @@ package study0426;
 import java.util.Scanner;
 
 public class baekjoon_P1074_Z {
-	public static int ans = 0;
+	public static int ans = 0;  
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
