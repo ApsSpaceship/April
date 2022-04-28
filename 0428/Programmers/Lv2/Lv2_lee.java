@@ -35,7 +35,6 @@ class Solution {
                 }
                 list.add(Character.toString(c));     
             // 마지막까지 다 돌았는데, 숫자이고, sb가 비어있거나 조금 채워져 있는 경우
-                // else if(sb.length() >= 0 && i == expression.length()-1) {
             }else if(i == expression.length()-1) {
                 sb.append(c);
                 list.add(sb.toString());
